@@ -1,7 +1,7 @@
 # meditation-practice
 
 A meditation app with a user-selected bell is not so common online.
-If you find a fully maintained one, please let me know to close the project.
+If you find a similar fully maintained app, please let me know.
 
 One can use a service like Pond5 to get an inhale/exhale sound that he would like to meditate with. 
 
