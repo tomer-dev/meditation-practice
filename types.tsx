@@ -9,14 +9,26 @@ export type RootStackParamList = {
 };
 
 export type BottomTabParamList = {
-  TabOne: undefined;
-  TabTwo: undefined;
+  Meditation: undefined;
 };
 
-export type TabOneParamList = {
-  TabOneScreen: undefined;
+export type MeditationPlannerParamList = {
+  MeditationPlannerScreen: undefined;
+  MeditationScreen: undefined;
+  CreateMeditationScreen: undefined;
+  UploadSoundScreen: undefined;
+  SettingsScreen: undefined;
 };
 
-export type TabTwoParamList = {
-  TabTwoScreen: undefined;
-};
+export interface Meditation {
+  name: string;
+  duration: number;
+  breathIn: BreathInfo;
+  breathOut: BreathInfo;
+}
+
+export interface BreathInfo {
+  duration: number;
+  trackName: string;
+  uri: string;
+}
